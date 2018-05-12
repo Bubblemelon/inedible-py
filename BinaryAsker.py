@@ -7,12 +7,14 @@ numCheckBad = True
 rRange = 0
 answer = 0
 
-print( "\n Welcome to Convert your decimal numbers to BINARY! \n")
+print( "\nWelcome to Convert your decimal numbers to BINARY! \n")
 print( "What is the number range you want to learn from?")
+
 
 while True:
     try:
-        rRange = int(input("\nEnter upper boundary of this range: "))
+        # needs to be a number
+        rRange = int(input("\nEnter upper boundary of this range: ")) + 1
         break
     except (ValueError, TypeError):
         print("Oops!  That was no valid number.  Try again...")
@@ -23,18 +25,26 @@ while True:
 
     print( "\nWhat is the binary of " + str(rNum) + " ?")
 
-
     while True:
         try:
-            answer =  bin( int( input("Answer: ") ) )[2:]
+            # given bin - convert to int
+            answer =  int(input("Answer: "), 2)
             break
+        # catches if anything except 0 or 1 was given
         except (ValueError, TypeError):
             print("Oops!  That was not Binary.  Try again...")
+
     
+    if format( answer, 'b') == format( rNum, 'b') :
 
-    print( "The answer is " + format( rNum, 'b') )
+        print( "\nYou are right!" )
+        print( "The answer is " + format( rNum, 'b') )
+    else:
+        print( "That's incorrect..." )
+        print( "The answer is " + format( rNum, 'b') )
 
-    print("Ask again? Type no to quit... Otherwise press ENTER")
+
+    print("\nAsk again? Type \"no\" to quit... Otherwise press ENTER")
 
     if input() == "no" :
         print("Bye bye!")
