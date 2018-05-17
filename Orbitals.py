@@ -1,4 +1,5 @@
 import pygame
+from SpriteAnimation import *
 
 
 WHITE = (255, 255, 255, 255)
@@ -9,17 +10,27 @@ def main():
 	#pygame setup
 	pygame.init()
 	clock = pygame.time.Clock()
-	screenSize = (500,500)
-	screen = pygame.display.set_mode(screenSize)
+	SCREENSIZE = (1000,1000)
+	screen = pygame.display.set_mode(SCREENSIZE)
 
+	
 
 	img = pygame.image.load("/Users/CherylFong/Desktop/Github/inedible-py/Images/pixelated_samoyed.jpg")
 	
-	# This image will always be on the bottom left corner of screen - using screenSize
-	img_pos = ( (screenSize[0]-screenSize[0]), (screenSize[1] - img.get_size()[1]) )
+	# This image will always be on the bottom left corner of screen - using SCREENSIZE
+	# height X width
+	img_pos = ( (SCREENSIZE[0]-SCREENSIZE[0]), (SCREENSIZE[1] - img.get_size()[1]) )
+
+	background_images = load_images("Images/Orbitals_Background_Sprite")
+
+	background_sprite = SpriteAnimation((0,0),background_images)
+
+	background_group = pygame.sprite.Group(background_sprite)
 
 	running = True
 	while running:
+
+		# background_images = load_images("Images/Orbitals_Background_Sprite")
 
 		#check if window was closed
 		for event in pygame.event.get():
@@ -34,8 +45,10 @@ def main():
 		screen.blit(img,img_pos)
 
 		# sprite
-		
-		
+		background_group.update(background_images)
+		background_group.draw(screen)
+
+
 		pygame.display.flip()
 		clock.tick(30)
 
