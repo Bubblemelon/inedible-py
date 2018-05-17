@@ -10,6 +10,7 @@ answer = 0
 print( "\nWelcome to Convert your decimal numbers to BINARY! \n")
 print( "What is the number range you want to learn from?")
 
+# 
 
 while True:
     try:
