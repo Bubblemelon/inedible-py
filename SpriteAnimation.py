@@ -50,7 +50,7 @@ class SpriteAnimation(pygame.sprite.Sprite):
 
         # go back to image 1 when last image is reached
        
-        if self.index >= len(images):  
+        if self.index >= len(images): 
             self.index = 0
 
         self.image = images[self.index] 

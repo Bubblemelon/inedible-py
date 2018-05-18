@@ -10,7 +10,7 @@ def main():
 	#pygame setup
 	pygame.init()
 	clock = pygame.time.Clock()
-	SCREENSIZE = (1000,1000)
+	SCREENSIZE = (1000,1000) # set to background size
 	screen = pygame.display.set_mode(SCREENSIZE)
 
 	
@@ -19,7 +19,9 @@ def main():
 	
 	# This image will always be on the bottom left corner of screen - using SCREENSIZE
 	# height X width
-	img_pos = ( (SCREENSIZE[0]-SCREENSIZE[0]), (SCREENSIZE[1] - img.get_size()[1]) )
+	# img_pos = ( (SCREENSIZE[0]-SCREENSIZE[0]), (SCREENSIZE[1] - img.get_size()[1]) )
+
+	img_pos = ( 0,0 )
 
 	background_images = load_images("Images/Orbitals_Background_Sprite")
 
@@ -41,13 +43,12 @@ def main():
 		#draw graphics to screen
 		screen.fill(WHITE)
 		
-		# blit image onto screen surface
-		screen.blit(img,img_pos)
-
 		# sprite
 		background_group.update(background_images)
 		background_group.draw(screen)
 
+		# blit image onto screen surface
+		screen.blit(img,img_pos)
 
 		pygame.display.flip()
 		clock.tick(30)
