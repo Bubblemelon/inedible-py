@@ -29,3 +29,6 @@ RUN pip3 install pygame
 # as this execution does not include the exports from the `docker run` command in "docker-build+run.sh"
 #
 # CMD python3 -m pygame.examples.aliens
+#
+# However I may be wrong, consider this guide when using the CMD directive:
+# http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/ 
