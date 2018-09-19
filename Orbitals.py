@@ -13,10 +13,10 @@ def main():
 	SCREENSIZE = (1000,1000) # set to background size
 	screen = pygame.display.set_mode(SCREENSIZE)
 
-	
 
-	img = pygame.image.load("/Users/CherylFong/Desktop/Github/inedible-py/Images/pixelated_samoyed.jpg")
-	
+
+	img = pygame.image.load("Images/pixelated_samoyed.jpg")
+
 	# This image will always be on the bottom left corner of screen - using SCREENSIZE
 	# height X width
 	# img_pos = ( (SCREENSIZE[0]-SCREENSIZE[0]), (SCREENSIZE[1] - img.get_size()[1]) )
@@ -39,10 +39,10 @@ def main():
 			if event.type == pygame.QUIT:
 				running = False
 
-		
+
 		#draw graphics to screen
 		screen.fill(WHITE)
-		
+
 		# sprite
 		background_group.update(background_images)
 		background_group.draw(screen)
