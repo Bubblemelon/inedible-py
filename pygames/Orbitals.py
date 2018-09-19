@@ -15,7 +15,7 @@ def main():
 
 
 
-	img = pygame.image.load("Images/pixelated_samoyed.jpg")
+	img = pygame.image.load("images/pixelated_samoyed.jpg")
 
 	# This image will always be on the bottom left corner of screen - using SCREENSIZE
 	# height X width
@@ -23,7 +23,7 @@ def main():
 
 	img_pos = ( 0,0 )
 
-	background_images = load_images("Images/Orbitals_Background_Sprite")
+	background_images = load_images("images/Orbitals_Background_Sprite")
 
 	background_sprite = SpriteAnimation((0,0),background_images)
 
