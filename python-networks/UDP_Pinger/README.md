@@ -27,3 +27,5 @@
 > If the server fails to return/send the uppercase message within 1 second, the client's socket will timeout. The client continues to send the same message to the server until 10 tries were sent.
 >
 > Overall, this client side program is intended to mimic the GNU `iputil`'s `ping` command. Hence before this client program ends, ping statistics for `localhost` are displayed.
+>
+> **Note**: Terminate the server by pressing <kbd>CTRL</kbd> + <kbd>c</kbd> before exiting the terminal.
