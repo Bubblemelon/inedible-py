@@ -3,6 +3,7 @@
 # This build works with ubuntu:latest as well, un-comment it in the Dockerfile and,
 # change the tag of this build as you wish.
 #
+# Run the following command within the same directory as the Dockerfile!
 docker build -t debian-python-x11 . 
 
 # Notes on run command:
