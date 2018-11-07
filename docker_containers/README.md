@@ -20,7 +20,23 @@ This build could also work with the `debian:jessie-slim` image, remove the ubunt
 >
 > (1) May not need the "unix" keyword as part of "...unix$DISPLAY".
 >
-> (2) May need to run `$ xhost +` on the host machine and then place the restrictions back again by running `$ xhost -` after container exits.
+> (2) May need to run `xhost +` on the host machine and then place the restrictions back again by running `$ xhost -` after container exits.
+
+This error may occur if `xhost +` was not executed:
+
+```bash
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.6/dist-packages/pygame/examples/aliens.py", line 321, in <module>
+    if __name__ == '__main__': main()
+  File "/usr/local/lib/python3.6/dist-packages/pygame/examples/aliens.py", line 188, in main
+    bestdepth = pygame.display.mode_ok(SCREENRECT.size, winstyle, 32)
+pygame.error: video system not initialized
+```
+The following statement is returned if executing `xhost +` was successful, `access control disabled, clients can connect from any host`.
 
 The above notes can also be found in `docker-build+run.sh` but are worded differently.
 
