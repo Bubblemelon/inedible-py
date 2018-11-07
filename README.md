@@ -5,7 +5,7 @@ scripts in python3.
 
 ### [docker_containers](/docker_containers)
 > Contains a Dockerfile, and a bash script that builds a pygame development container.
-> The [README](/docker_containers/README.md) has an explanation on how to use Docker and the mentioned scripts.
+> The [README](/docker_containers/README.md) has an explanation on how to use Docker to run a pygame app.
 
 ### [misc](/misc)
 > Where I store miscellaneous python3 files.
