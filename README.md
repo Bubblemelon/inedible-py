@@ -14,7 +14,7 @@ scripts in python3.
 > Scripts that implement the pygame library lives here.
 
 ### [python-networks](/python-networks)
-> Scripts using python for network programming. 
+> Python for network programming. 
 
 ### [raspberry-pi](/raspberry-pi)
 > Python written for Raspberry Pis.
