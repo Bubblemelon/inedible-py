@@ -7,12 +7,17 @@ import array
 # time.strftime(%H:%M:%S)
 
 # needs two command line arguments
-if len(sys.argv) != 2:
-    print ('\nUsage:python3 UDPPingClient "message to server in lowercase"\n')
+if len(sys.argv) < 2:
+    print ('\nUsage:python3 UDPPingClient "message to server in lowercase" <Optional:Number of Pings>\n')
     sys.exit()
 
+pingNum = 10
 
-print ("\nThis UDP Client will ping your message ("+ str(sys.argv[1]) +") 10 times to the server.\n")
+if len(sys.argv) == 3:
+    print ("\nThis UDP Client will ping your message ("+ str(sys.argv[1]) +") " + str(sys.argv[2]) + " time(s) to the server.\n")
+    pingNum = int(sys.argv[2])
+else:
+    print ("\nThis UDP Client will ping your message ("+ str(sys.argv[1]) +") 10 times to the server.\n")
 
 # server side address and port number
 # or 127.0.0.1
@@ -36,7 +41,7 @@ rttList = list()
 # counter for received number
 recvNum = 0
 
-for x in range(10):
+for x in range(pingNum):
 
     # time at which message was sent
     # for entire(whole) time in seconds = time.time()
