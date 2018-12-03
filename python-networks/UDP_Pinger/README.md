@@ -21,8 +21,8 @@
 
 #### UDP Ping Client
 
-> This client program i.e. `UDPPingClient.py` will require a message upon starting.
-> To start this client program simply run, `python3 UDPPingClient "message to server in lowercase"`
+> This client program i.e. `UDPPingClient.py` will require a message and an optional number of pings (default is 10 pings) to send to the server upon executing.
+> To start this client program simply run, `python3 UDPPingClient "message to server in lowercase" N`, where `N` optional is the number of pings.
 >
 > This client program is set to send the message to `localhost` at port `12000`, which is defined in `UDPPingServer.py`.
 >
