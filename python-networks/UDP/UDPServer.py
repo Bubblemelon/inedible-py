@@ -1,4 +1,5 @@
 from socket import*
+import sys
 
 serverPort = 12000
 
@@ -11,7 +12,7 @@ serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(('localhost' ,serverPort))
 
 # at this point, server should be ready
-print("The UDP server is ready to receive")
+print("[status] UDP server is ready to receive.")
 
 while True:
 
@@ -22,10 +23,19 @@ while True:
     # recv returns only the message string in bytes
     #
     # https://docs.python.org/3/library/socket.html#socket.socket.recv
-    message, clientAddress = serverSocket.recvfrom(2048)
+    try:
+        message, clientAddress = serverSocket.recvfrom(2048)
 
-    # capitalize the message from the client
-    modifiedMessage = message.decode().upper()
+        print("[status] message received: " + message.decode() )
 
-    # respond by sending the capitalize message back to the client
-    serverSocket.sendto(modifiedMessage.encode(), clientAddress)
+        # capitalize the message from the client
+        modifiedMessage = message.decode().upper()
+
+        # respond by sending the capitalize message back to the client
+        serverSocket.sendto(modifiedMessage.encode(), clientAddress)
+
+    except KeyboardInterrupt:
+        # captures ^C
+                
+        print("\n[status] UDP server is terminated.")
+        sys.exit()
