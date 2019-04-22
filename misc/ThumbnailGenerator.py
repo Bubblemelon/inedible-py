@@ -26,5 +26,5 @@ for infile in sys.argv[1:]:
                 img.save(outfile + "_thumbnail.jpeg", 'jpeg')
 
         except IOError as e:
-            print "ERROR: Unable to create thumbnail !"
-            print "ERROR:", e
+            print ("ERROR: Unable to create thumbnail !")
+            print ("ERROR:", e)
