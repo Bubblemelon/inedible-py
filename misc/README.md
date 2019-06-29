@@ -1,14 +1,14 @@
 ## Miscellaneous Python Programs
 
-### [BinaryAsker](/BinaryAsker.py) 
+### [BinaryAsker](/BinaryAsker.py)
 > This program tests the user's knowledge on binary numbers. It will ask for a range of decimal numbers that the program will ask the user to calculate/guess
-the conversion to binary. 
+the conversion to binary.
 
 ### [FoliumMapGenerator](/FoliumMapGenerator)
 
 > This program takes a data file i.e. [`/data/customers.txt`](/FoliumMapGenerator/data/customers.txt) and generates a html file to display a map containing markers using coordinates from the data file via the [Folium](https://python-visualization.github.io/folium/) library.
 
-![Folium map demo gif.](/img/folium-map-demo.gif)
+![Folium map demo gif.](/misc/img/folium-map-demo.gif)
 
 ### [os-env](/os-env)
 
@@ -21,8 +21,8 @@ the conversion to binary.
 
 Original:
 
-![Puppy image.](/img/puppy.jpg)
+![Puppy image.](/misc/img/puppy.jpg)
 
 Thumbnail:
 
-![Puppy thumbnail.](/img/puppy_thumbnail.jpeg)
+![Puppy thumbnail.](/misc/img/puppy_thumbnail.jpeg)
