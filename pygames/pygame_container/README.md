@@ -2,6 +2,14 @@
 
 This configuration will allow Pygames GUI(s) to work from a Docker Container using the host machine's X11 session.
 
+### Pull from Docker Hub:
+
+```bash
+docker pull bubblemelon/debian-python-x11
+```
+
+To build from scratch see the sections that follow.
+
 ### How to Run:
 
 Run `./docker-build_run.sh` to build the image and run a container of that image, this will launch one of Pygame's example games.
