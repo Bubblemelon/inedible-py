@@ -10,7 +10,7 @@ answer = 0
 print( "\nWelcome to Convert your decimal numbers to BINARY! \n")
 print( "What is the number range you want to learn from?")
 
-# 
+#
 
 while True:
     try:
@@ -21,7 +21,7 @@ while True:
         print("Oops!  That was no valid number.  Try again...")
 
 while True:
-    
+
     rNum= int(random.randrange( rRange ))
 
     print( "\nWhat is the binary of " + str(rNum) + " ?")
@@ -35,7 +35,7 @@ while True:
         except (ValueError, TypeError):
             print("Oops!  That was not Binary.  Try again...")
 
-    
+
     if format( answer, 'b') == format( rNum, 'b') :
 
         print( "\nYou are right!" )
