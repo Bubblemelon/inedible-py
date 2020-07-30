@@ -1,8 +1,5 @@
 import random
 
-
-
-
 numCheckBad = True
 rRange = 0
 answer = 0
@@ -45,7 +42,8 @@ while True:
         print( "The answer is " + format( rNum, 'b') )
 
 
-    print("\nAsk again? Type \"no\" to quit... Otherwise press ENTER")
+    print("\nAsk again? \nType \"no\" exactly to quit...\nOtherwise" +
+        " press ENTER or type anything to continue.")
 
     if input() == "no" :
         print("Bye bye!")
