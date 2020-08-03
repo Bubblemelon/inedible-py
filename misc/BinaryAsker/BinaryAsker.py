@@ -34,16 +34,16 @@ while True:
             break
         # catches if anything except 0 or 1 was given
         except (ValueError, TypeError):
-            print("Oops!  That was not Binary.  Try again...")
+            print("\nOops!  That was not Binary.  Try again...")
 
 
     if format( answer, 'b') == format( rNum, 'b') :
-
         print( "\nYou are right!" )
-        print( "The answer is " + format( rNum, 'b') )
+
     else:
-        print( "That's incorrect..." )
-        print( "The answer is " + format( rNum, 'b') )
+        print( "\nThat's incorrect..." )
+
+    print( "\nThe answer is " + format( rNum, 'b') + "." )
 
     t1 = time.time()
     tDiff = t1 - t0
