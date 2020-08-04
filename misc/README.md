@@ -1,8 +1,9 @@
 ## Miscellaneous Python Programs
 
 ### [BinaryAsker](misc/BinaryAsker/BinaryAsker.py)
-> This program tests the user's knowledge on binary numbers. It will ask for a range of decimal numbers that the program will ask the user to calculate/guess
-the conversion to binary.
+> This program tests the user's knowledge on binary numbers. It will ask for a range of decimal numbers that the program will ask the user to calculate/guess the conversion to binary.
+> The user's time taken to answer is displayed after each attempt. The shortest time taken is shown before the program terminates.
+> The input does not need to be padded with zeros e.g. the binary of `3` can be `0011` or `11`.
 
 ### [FoliumMapGenerator](misc/FoliumMapGenerator/FMG.py)
 
