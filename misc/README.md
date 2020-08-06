@@ -5,6 +5,8 @@
 > The user's time taken to answer is displayed after each attempt. The shortest time taken is shown before the program terminates.
 > The input does not need to be padded with zeros e.g. the binary of `3` can be `0011` or `11`.
 
+![BinaryAsker demo gif.](misc/BinaryAsker/BinaryAsker_demo.gif)
+
 ### [FoliumMapGenerator](misc/FoliumMapGenerator/FMG.py)
 
 > This program takes a data file i.e. [`/data/customers.txt`](/FoliumMapGenerator/data/customers.txt) and generates a html file to display a map containing markers using coordinates from the data file via the [Folium](https://python-visualization.github.io/folium/) library.
