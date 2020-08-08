@@ -18,7 +18,7 @@
 > This directory contains scripts that show examples on how to retrive environment variables using the module method defined in `settings.py`, or from the `.env` file and from [exported variables](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps) via the [python-dotenv](https://github.com/theskumar/python-dotenv) library,
 
 
-### [ThumnailGenerator](misc/ThumbnailGenerator.py)
+### [ThumnailGenerator](misc/ThumbnailGenerator/ThumbnailGenerator.py)
 
 > This program takes image files ( >= 1) and resizes it to `128x128`. If the image file is already equal or smaller that this dimension in both width and height then there will be no changes to that image file. See the difference between `Image.resize` and `Image.thumbnail` [here](https://stackoverflow.com/questions/29367990/what-is-the-difference-between-image-resize-and-image-thumbnail-in-pillow-python). The generated thumbnail image is saved in its original format if the extension is supported otherwise it will be saved in `jpeg`. Thumbnails will have `*_thumbnail.*` as its file name and saved in the same directory as the original.
 
