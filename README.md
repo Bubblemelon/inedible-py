@@ -18,3 +18,7 @@ scripts in python3.
 
 ### [raspberry-pi](/raspberry-py)
 > Python written for Raspberry Pis.
+
+### [Programming Paradigms](/python-paradigms/paradigms.md)
+> A concise note on the Python language paradigms and other paradigms, including structured and logical, and
+> how to decide on which paradigm to use.
