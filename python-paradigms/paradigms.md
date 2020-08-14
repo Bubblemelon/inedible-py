@@ -52,3 +52,9 @@ print sum
 # 15
 ```
 The anonymous function i.e. `lambda` which is defined/declared under `sum`, evaluates to `15`. Functional programming always returns a new expression, in this case `15` is returned as a new expression.
+
+### [Procedural](#Procedural)
+- Procedures are subroutines, routines or function calls.
+  - They contain a series of computation steps.
+- [Subtype][10] of [imperative programming](#Imperative).
+- Derived from structured programming.
