@@ -58,3 +58,17 @@ The anonymous function i.e. `lambda` which is defined/declared under `sum`, eval
   - They contain a series of computation steps.
 - [Subtype][10] of [imperative programming](#Imperative).
 - Derived from structured programming.
+
+### Object-Oriented (OO)
+
+- Use of abstract data types to problem solve.
+- The key abstractions become the objects.
+  - An object is a tangible entity exhibiting some well-defined behavior.
+  - Objects do things that we ask by sending them messages (calling functions).
+- Real-world objects are each viewed as separate entities having their own state which is modified only by built in procedures, called methods.
+- The use of encapsulation as modules which contain both local environments and methods.
+  - Communication with an object is done by message passing.
+- Objects are modeled in classes and inherit methods and attributes.
+- Modelling a program into classes allows for modularity.
+- Inheritance allows code to be reused and extended without the need to change existing source code.
+- [Subtype][2] of [structured programming](#Structured).
