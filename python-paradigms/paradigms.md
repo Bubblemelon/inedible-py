@@ -72,3 +72,7 @@ The anonymous function i.e. `lambda` which is defined/declared under `sum`, eval
 - Modelling a program into classes allows for modularity.
 - Inheritance allows code to be reused and extended without the need to change existing source code.
 - [Subtype][2] of [structured programming](#Structured).
+
+## Other Language Paradigms
+
+Python indirectly encompasses theses paradigms below, except Logical programming.
