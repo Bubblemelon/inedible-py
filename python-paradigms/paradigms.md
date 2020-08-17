@@ -76,3 +76,8 @@ The anonymous function i.e. `lambda` which is defined/declared under `sum`, eval
 ## Other Language Paradigms
 
 Python indirectly encompasses theses paradigms below, except Logical programming.
+
+### [Declarative](#Declarative)
+
+- The "what-to-solve" approach.
+- [Expresses logic without describing control flow][10].
