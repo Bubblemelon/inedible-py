@@ -93,3 +93,19 @@ Python indirectly encompasses theses paradigms below, except Logical programming
 - Prolog: stands for "[Programming in logic][3]".
 
 <!-- ### [Structured](#Structured) -->
+
+## [How to Choose a Paradigm](#How-to-Choose-a-Paradigm)
+
+Words of Advice from Professor Tao at UCLA:
+> Problem solving requires placing partial progress as a crucial stepping stone to fully solving the problem.
+>
+> If the "first solution attempt is able to solve some portion of the problem, one needs to then look to combine that argument with techniques that can solve complementary portions of the problem in order to reach the final solution".
+>
+> Failures are crucial advances needed to solve the full problem. Resolve at least some of the difficulties so that focus can be placed on the remaining issues that needed resolution.
+>
+> *[Importance of Partial Progress][4]*
+
+
+Hence, usually there isn't a one size fits all solution. Think of the available programming paradigms as a set of tools; each with its own advantage.
+
+Since problem solving often involves more than one approach. It is better to understand what each approach or paradigm is good for, then use a combination of one or more rather than constraining the solution to only one approach.
