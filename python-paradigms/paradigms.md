@@ -81,3 +81,15 @@ Python indirectly encompasses theses paradigms below, except Logical programming
 
 - The "what-to-solve" approach.
 - [Expresses logic without describing control flow][10].
+
+### [Logical](#Logical)
+
+- [Rule-based][2].
+- A set of rules and facts (or formal propositions) are specified.
+- Implementation infers (or figures out) the results using logical statements.
+- Takes a [declarative](#Declarative) approach to [problem-solving][9].
+
+#### Languages:
+- Prolog: stands for "[Programming in logic][3]".
+
+<!-- ### [Structured](#Structured) -->
