@@ -129,3 +129,14 @@ are as applicable to functional as to procedural programming" ([Michaelson][6]).
 > "This suggests that structured programming is a subset of procedural programming, which is a subset of both OO and functional programming " ([Michaelson][6]).
 
 <!-- ![Peter Van Roy's Taxonomy of Programming Languages]() -->
+
+### Last Thoughts
+
+As mentioned in [How to Choose a Paradigm](#How-to-Choose-a-Paradigm), it is possible to use more than one paradigm if a language supports it. And by contrast, certain problems or conditions would make it preferable to exclusively code in
+just one paradigm.
+
+It is also important to consider the purpose of a particular programming language i.e. how it was developed into a
+language, and perhaps even consider if it's a interpreted or compiled language.
+
+Python is one great example of a multi-paradigm language, as well as Javascript, C++, Rust, and many others.
+While Smalltalk is a purely OO and Haskell is purely functional.
