@@ -109,3 +109,23 @@ Words of Advice from Professor Tao at UCLA:
 Hence, usually there isn't a one size fits all solution. Think of the available programming paradigms as a set of tools; each with its own advantage.
 
 Since problem solving often involves more than one approach. It is better to understand what each approach or paradigm is good for, then use a combination of one or more rather than constraining the solution to only one approach.
+
+### Paradigms Overlap
+
+Programming paradigms usually overlap.
+
+![Venn Diagram of Imperative, Structured, Procedural Programing.](/python-paradigms/imperative-structured-procedural.jpg)
+
+Doing a quick Google search for images of "[programming paradigms][8]", you will find the ubiquitous diagram that shows
+two branches diverging into imperative and declarative programming. It seems to mean that the two branches are isolated
+from each other. The following challenges this idea, indicating that these two branches do indeed overlap.
+
+Take for example, structured programming is used to elaborate algorithms within and from methods for OO and as well as procedural programming. OO is distinguishable from procedural programming by the concept of classes. Structured
+programming is also a necessary methodology for functional programming, and "modular decomposition and stepwise refinement
+are as applicable to functional as to procedural programming" ([Michaelson][6]).
+
+![Venn Diagram of Structured, Procedural, OO and Functional Programming.](/python-paradigms/structured-procedural-oo-functional.png)
+
+> "This suggests that structured programming is a subset of procedural programming, which is a subset of both OO and functional programming " ([Michaelson][6]).
+
+<!-- ![Peter Van Roy's Taxonomy of Programming Languages]() -->
