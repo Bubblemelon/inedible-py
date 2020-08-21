@@ -140,3 +140,8 @@ language, and perhaps even consider if it's a interpreted or compiled language.
 
 Python is one great example of a multi-paradigm language, as well as Javascript, C++, Rust, and many others.
 While Smalltalk is a purely OO and Haskell is purely functional.
+
+### Interesting Reads:
+
+- [Programming Paradigms, Turing Completeness and Computational Thinking][6]
+- [Introduction to Prolog][3]
