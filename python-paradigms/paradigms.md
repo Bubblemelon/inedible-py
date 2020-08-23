@@ -145,3 +145,15 @@ While Smalltalk is a purely OO and Haskell is purely functional.
 
 - [Programming Paradigms, Turing Completeness and Computational Thinking][6]
 - [Introduction to Prolog][3]
+
+<!-- External Links -->
+[1]: https://digitalfellows.commons.gc.cuny.edu/2018/03/12/an-introduction-to-programming-paradigms/
+[2]: http://courses.washington.edu/css342/zander/css332/paradigm.html
+[3]: http://www.mind.ilstu.edu/curriculum/protothinker/prolog_intro.php
+[4]: https://terrytao.wordpress.com/career-advice/on-the-importance-of-partial-progress/
+[6]: https://www.researchgate.net/publication/339300928_Programming_Paradigms_Turing_Completeness_and_Computational_Thinking
+[7]: https://softwareengineering.stackexchange.com/questions/117092/whats-the-difference-between-imperative-procedural-and-structured-programming
+[8]: https://www.google.com/search?q=programming+paradigms&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAtd6LnOzqAhWDoFsKHUfpA4AQ_AUoA3oECA4QBQ&biw=1920&bih=949
+[9]: http://www.eecs.ucf.edu/~leavens/ComS541Fall97/hw-pages/paradigms/major.html
+[10]: https://opensource.com/article/19/10/python-programming-paradigms
+[11]: https://www.info.ucl.ac.be/~pvr/paradigms.html
