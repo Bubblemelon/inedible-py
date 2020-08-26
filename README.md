@@ -16,9 +16,9 @@ scripts in python3.
 ### [python-networks](/python-networks)
 > Python for network programming.
 
-### [raspberry-pi](/raspberry-py)
-> Python written for Raspberry Pis.
-
-### [Programming Paradigms](/python-paradigms/paradigms.md)
+### [python-paradigms](/python-paradigms/paradigms.md)
 > A concise note on the Python language paradigms and other paradigms, including structured and logical, and
 > how to decide on which paradigm to use.
+
+### [raspberry-pi](/raspberry-py)
+> Python written for Raspberry Pis.
